@@ -35,6 +35,9 @@ public:
     void Decrypt(mpz_t m, mpz_t c); // 解密
     void Add(mpz_t res, mpz_t c1, mpz_t c2);
     void Mul(mpz_t resc, mpz_t c, mpz_t e);
+    void Sub(mpz_t res, mpz_t c1, mpz_t c2);  // 减法
+    int Compare(mpz_t c1, mpz_t c2); // 比较
+    void Div(mpz_t res, mpz_t c, mpz_t k); //除法
 };
 
 
